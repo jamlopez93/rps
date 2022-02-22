@@ -1,0 +1,24 @@
+.scoreboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.scoreboard__score,
+.scoreboard__name{
+    padding: 10px;
+    text-align: center;
+}
+.scoreboard__name{
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+.scoreboard__name--one{
+    color: blueviolet;
+}
+.scoreboard__name--two{
+    color: chartreuse;
+}
+.scoreboard__score{
+    font-size: 2em;
+}
